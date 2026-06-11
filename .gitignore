@@ -1,0 +1,69 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual env / local env
+.env
+backend/.env
+.venv/
+venv/
+env/
+
+# IDE / OS
+.idea/
+.vscode/
+*.iml
+Thumbs.db
+.DS_Store
+
+# Runtime / generated folders
+/audio/
+/output/
+/uploads/
+clip_mvp/data/
+clip_mvp/uploads/
+clip_mvp/audio/
+clip_mvp/outputs/
+clip_mvp/frontend/node_modules/
+clip_mvp/frontend/dist/
+third_party/
+备用/
+
+# Generated media and timeline files
+*.mp4
+*.mp3
+*.wav
+*.vtt
+*.ass
+*.edl
+*.srt
+
+# Logs / temp
+*.log
+*.tmp
+*.zip
+
+# Local test artifacts
+backend/test.mp3
+backend/test.vtt
+
+# Non-code course materials and notes
+*.docx
+时间戳优化说明.md
+时间戳实现指南.md
+音频识别优化说明.md
+项目计划书.md
+frontend/README.md
+
+# Non-core local helper / duplicate entry files
+/allow_flask_access.bat
+/check_firewall.bat
+/app copy.py
+/app.py
+/main.py
+/mian1.py
+/run.py
+/templates/
+/README.md
